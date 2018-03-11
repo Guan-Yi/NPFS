@@ -46,6 +46,6 @@ def main (image, filter_type):
         
 if __name__ == "__main__":
     img_name = str(sys.argv[1])
-    select_filter = str(sys.argv[1])
+    select_filter = str(sys.argv[2])
     main(img_name, select_filter)
     
